@@ -1,3 +1,26 @@
+# Step Up
+
+------------------
+
+1.Install `create-react-app` & init project
+
+```shell
+npm install -g create-react-app
+create-react-app my-app
+cd my-app/
+```
+
+2.Start index.js with react-scripts
+
+```shell
+[PORT=xxxx] npm start
+```
+
+Open localhost:xxxx in your browser.
+
+2.Add ES6 support
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

@@ -3,14 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.8.4"
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-import": "^1.1.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "dora": "^0.4.3",
+    "dora-plugin-webpack": "^0.8.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
   },
   "dependencies": {
+    "antd": "^2.6.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "dora -p 10010",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
