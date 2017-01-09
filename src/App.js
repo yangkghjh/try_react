@@ -18,7 +18,7 @@ class App extends React.Component {
     return (
       <div>
         <DatePicker onChange={value => this.handleChange(value)} />
-        <div style={{ marginTop: 20 }}>当前日期3：{this.state.date.toString()}</div>
+        <div style={{ marginTop: 20 }}>当前日期：{this.state.date.toString()}</div>
       </div>
     );
   }
