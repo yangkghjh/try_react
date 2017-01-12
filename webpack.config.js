@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  devtool: 'eval-source-map',
   entry: "./src/index.js",
   output: {
     path: "./dist",
@@ -34,9 +35,6 @@ module.exports = {
         loader: 'style!css'
       }
     ]
-  },
-  resolve: {
-    extensions: ['','.coffee','.js']
   },
   plugins: [
     new HtmlWebpackPlugin({
